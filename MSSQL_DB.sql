@@ -19,5 +19,8 @@ CREATE TABLE EmployeePayRoll
 insert into EmployeePayRoll values ('Dhoni', 45623, '2019-02-03')
 insert into EmployeePayRoll (Salary, Name, StartDate) values (465789, 'Kumar', getdate());
 
+------------UC4-SelectQuerie------------
 
+select * from EmployeePayRoll where Name = 'Sachin';
+select * from EmployeePayRoll where StartDate between cast('2015-01-01' as date) and getdate();
 
