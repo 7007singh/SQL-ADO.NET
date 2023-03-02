@@ -14,4 +14,10 @@ CREATE TABLE EmployeePayRoll
    StartDate date
 )
 
+--------UC3-EmployeePayRollData---------
+
+insert into EmployeePayRoll values ('Dhoni', 45623, '2019-02-03')
+insert into EmployeePayRoll (Salary, Name, StartDate) values (465789, 'Kumar', getdate());
+
+
 
