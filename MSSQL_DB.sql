@@ -25,6 +25,6 @@ insert into EmployeePayroll (Salary, Name, startDate) values (12346, 'Shyama', G
 
 ------------UC4-SelectQuerie------------
 
-select * from EmployeePayRoll where Name = 'Radha';
+select * from EmployeePayRoll
 
 
