@@ -27,4 +27,11 @@ insert into EmployeePayroll (Salary, Name, startDate) values (12346, 'Shyama', G
 
 select * from EmployeePayRoll
 
+----UC5-RetriveData_BySpecificDetails---
+
+select * from EmployeePayRoll where Name = 'Radha'
+select * from EmployeePayRoll where StartDate between CAST('2023-02-03' as date) AND GETDATE();
+select * from EmployeePayRoll where StartDate between CAST('2020-02-06' as date) AND GETDATE();
+
+
 
