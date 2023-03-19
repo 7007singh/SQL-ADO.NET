@@ -51,3 +51,8 @@ select Min(Salary) As minSalary from EmployeePayRoll;
 select Avg(Salary) As avgSalary from EmployeePayRoll group by Gender;
 select Avg(Salary) As avgSalary from EmployeePayRoll;
 
+------------UC8-EntendData--------------
+
+ALTER TABLE EmployeePayRoll ADD Phone float
+ALTER TABLE EmployeePayRoll ADD DEFAULT 'Add' FOR Address 
+ALTER TABLE EmployeePayRoll ADD Department varchar(50) NOT NULL default 'Working'
