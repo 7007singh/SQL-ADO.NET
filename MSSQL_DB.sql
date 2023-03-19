@@ -56,3 +56,11 @@ select Avg(Salary) As avgSalary from EmployeePayRoll;
 ALTER TABLE EmployeePayRoll ADD Phone float
 ALTER TABLE EmployeePayRoll ADD DEFAULT 'Add' FOR Address 
 ALTER TABLE EmployeePayRoll ADD Department varchar(50) NOT NULL default 'Working'
+
+------------UC9-EntendData--------------
+
+ALTER TABLE EmployeePayRoll ADD BasicPay float
+ALTER TABLE EmployeePayRoll ADD Deduction float
+ALTER TABLE EmployeePayRoll ADD TaxablePay float
+ALTER TABLE EmployeePayRoll ADD IncomePay float
+ALTER TABLE EmployeePayRoll ADD NetPay float
